@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field — A field journal for the long work</title>
+<meta name="description" content="A quiet habit tracker for men committed to the daily work of becoming. Private by design. No tracking. No ads.">
+<style>
+  :root {
+    --parchment: #F4EFE6;
+    --vellum: #EBE4D6;
+    --ink: #1C1B18;
+    --ink-secondary: #6B6862;
+    --ink-tertiary: #9B9890;
+    --oxblood: #5C1E1A;
+    --brass: #8B6F2A;
+    --hairline: #D8D1C0;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: "New York", "Times New Roman", Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 32px 64px;
+  }
+  .icon {
+    width: 96px;
+    height: 96px;
+    background: var(--oxblood);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 32px;
+    box-shadow: 0 1px 3px rgba(28, 27, 24, 0.08);
+  }
+  .icon-letter {
+    font-family: "New York", "Times New Roman", Georgia, serif;
+    font-size: 64px;
+    font-weight: 500;
+    color: var(--parchment);
+    line-height: 1;
+    margin-top: -4px;
+    margin-left: 4px;
+  }
+  .brand {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--brass);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.05;
+    margin: 0 0 16px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+  .tagline {
+    font-size: 22px;
+    font-style: italic;
+    color: var(--ink-secondary);
+    text-align: center;
+    margin: 0 0 56px;
+  }
+  .quote-block {
+    padding: 32px 0 40px;
+    text-align: center;
+    border-top: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+    margin: 0 0 56px;
+  }
+  .quote {
+    font-size: 22px;
+    font-style: italic;
+    color: var(--ink);
+    margin: 0 0 12px;
+    line-height: 1.4;
+  }
+  .quote-attribution {
+    font-size: 14px;
+    color: var(--ink-tertiary);
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 48px 0 16px;
+    letter-spacing: -0.3px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 0 16px;
+    color: var(--ink);
+  }
+  .features {
+    margin: 32px 0 48px;
+    padding: 0;
+    list-style: none;
+  }
+  .features li {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 17px;
+  }
+  .features li:last-child {
+    border-bottom: none;
+  }
+  .features strong {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  .features span {
+    color: var(--ink-secondary);
+    font-style: italic;
+    font-size: 16px;
+  }
+  .cta {
+    text-align: center;
+    margin: 48px 0;
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--oxblood);
+    color: var(--parchment);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 8px;
+  }
+  .cta-note {
+    margin-top: 12px;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--ink-tertiary);
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--hairline);
+    margin: 64px 0 32px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: var(--ink-tertiary);
+  }
+  .footer a {
+    color: var(--ink-secondary);
+    text-decoration: none;
+    font-style: italic;
+    margin: 0 12px;
+  }
+  .footer a:hover { color: var(--oxblood); }
+  @media (max-width: 600px) {
+    h1 { font-size: 40px; }
+    .tagline { font-size: 18px; }
+    .quote { font-size: 18px; }
+    .container { padding: 48px 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="icon">
+    <span class="icon-letter">F</span>
+  </div>
+
+  <div class="brand">FIELD</div>
+  <h1>For the long work.</h1>
+  <p class="tagline">A field journal for the daily work of becoming.</p>
+
+  <div class="quote-block">
+    <p class="quote">"Do what you can, with what you have, where you are."</p>
+    <p class="quote-attribution">— Theodore Roosevelt</p>
+  </div>
+
+  <p>Field is a quiet habit tracker for men committed to the slow, daily work of building the lives they want. No streaks that shame you. No notifications that nag you. No data that leaves your phone. Just a clean, private record of the small things you're doing every day to become someone you respect.</p>
+
+  <p>Built for iPhone and iPad. Made by hand for iOS 26.</p>
+
+  <h2>What's inside</h2>
+  <ul class="features">
+    <li>
+      <strong>A daily ledger</strong>
+      <span>Mark each day, build each streak, leave a record of the work.</span>
+    </li>
+    <li>
+      <strong>Week, month, and year views</strong>
+      <span>See your progress at every scale, from this morning to this year.</span>
+    </li>
+    <li>
+      <strong>Quiet reminders</strong>
+      <span>Set a time. Get a gentle nudge. No nagging, no escalation.</span>
+    </li>
+    <li>
+      <strong>Home and lock screen widgets</strong>
+      <span>Glance at your day without opening the app.</span>
+    </li>
+    <li>
+      <strong>Private by design</strong>
+      <span>Your data lives on your device. We never see it. We never could.</span>
+    </li>
+  </ul>
+
+  <div class="cta">
+    <a href="#" class="cta-button">Coming soon to the App Store</a>
+    <p class="cta-note">Free for up to three habits. Field Pro unlocks unlimited.</p>
+  </div>
+
+  <hr>
+  <div class="footer">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="mailto:hello@field.app">Contact</a>
+    <p style="margin-top: 24px;">© 2026 Field. Made for the long work.</p>
+  </div>
+
+</div>
+</body>
+</html>
